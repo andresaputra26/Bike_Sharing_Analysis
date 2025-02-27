@@ -14,8 +14,8 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(
      "Pertanyaan 5", "Pertanyaan 6", "Pertanyaan 7", "Pertanyaan 8", "Pertanyaan 9"])
 
 # Import Dataframe
-day_df = pd.read_csv("Data\day.csv")
-hour_df = pd.read_csv("Data\hour.csv")
+day_df = pd.read_csv("data\day.csv")
+hour_df = pd.read_csv("data\hour.csv")
 
 # Change the Data Type of the "dteday" Column 
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
